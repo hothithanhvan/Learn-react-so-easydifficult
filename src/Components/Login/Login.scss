@@ -1,0 +1,15 @@
+.login-container {
+    background-color: #f0f2f5;
+    min-height: 100vh;
+    padding-top: 20px;
+    .content-right {
+        border-radius: 20px;
+        background-color: white;
+        .forget-password {
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
